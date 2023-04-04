@@ -1,0 +1,138 @@
+body {
+	background: #c1d8f0;
+	color: #003249;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: 'Rubik', sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: 'Merriweather', serif;
+}
+
+h1 {
+	color: #0068A7;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+h2 {
+	color: #0068A7;
+	font-size: 25px;
+	font-weight: 700;
+}
+
+a {
+	color: #0068A7;
+	font-size: 20px;
+	font-weight: bold;
+	transition: color 0.3s ease;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #3B4358;
+}
+
+#card-first {
+	margin-bottom: 40px;
+}
+
+.picture {
+	width: 250px;
+	margin: 50px;
+	position: relative;
+	vertical-align: middle;
+	border-radius: 55px;
+	box-shadow: 1px 1px 25px rgba(0,0,0,0.6);
+}
+
+.picture:hover {
+	box-shadow: 1px 1px 30px rgba(0,0,0,0.7);
+}
+
+#profile-picture {
+	box-shadow: 0 0 25px rgba(0,0,0,0.8);
+	width: 250px;
+	margin: 25px 0 5px;
+	border-radius: 20px;
+}
+
+#profile-picture:hover {
+	box-shadow: 0 0 30px rgba(0,0,0,0.9);
+}
+
+i{
+	font-size: 60px;
+	color: #0068A7;
+}
+
+i:hover {
+	color: #317DCD;
+}
+
+li {
+	list-style: inside;
+	padding-bottom: 5px;
+	padding-right: 40px;
+}
+
+.list-inline {
+	display: inline;
+}
+
+.card-white {
+	background-color: #FFFFFF;
+	border-radius: 20px;
+	box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.5);
+	padding: 30px 50px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.card-white:hover {
+	box-shadow: 5px 5px 25px rgba(0,0,0,0.7);
+}
+
+.btn-blue {
+	background-color: #0068A7;
+	color: white;
+	padding: 20px;
+	border-radius: 10px;
+	margin: 15px auto;
+	display: inline-block;
+	text-decoration: none;
+	box-shadow: 0 0 15px rgba(0,59,95,0.60);
+	transition: color 0.5s ease;
+}
+
+.btn-blue:hover {
+	background-color: #317DCD;
+	color: white;
+	box-shadow: 0 0 20px rgba(0,59,95,0.80);
+}
+
+.container {
+	max-width: 900px;
+	margin: 50px auto;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+@media (max-width: 960px) {
+	.container {
+		max-width: 800px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		max-width: 600px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		max-width: 400px;
+	}
+}
